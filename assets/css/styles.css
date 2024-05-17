@@ -510,3 +510,45 @@ img {
     width: 450px;
   }
 }
+
+.pr{
+  position: relative;
+}
+
+.work-img {
+  position: relative;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255);
+  opacity: 0;
+  transition: opacity ease-in 300ms;
+  /* White color with 0% opacity */
+}
+
+.img-overlay:hover {
+  opacity: 0.9;
+  background-color: rgba(255, 255, 255);
+  /* White color with 50% opacity */
+}
+
+.cardh {
+  transition: transform ease-in 500ms;
+}
+
+.cardh:hover {
+  transform: scale(1.06);
+}
+
+.skills__data{
+  transition: transform ease-in 500ms; 
+}
+
+.skills__data:hover {
+  transform: scale(1.06);
+}

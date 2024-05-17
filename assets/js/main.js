@@ -55,3 +55,17 @@ sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{});
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
 sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); 
+
+const workImages = document.querySelectorAll('.work__img');
+
+workImages.forEach(workImg => {
+  workImg.addEventListener('click', () => {
+    const img = workImg.querySelector('img');
+    const overlay = workImg.querySelector('.work__overlay');
+
+    img.style.transform = 'rotateY(180deg)';
+    overlay.style.opacity = '1';
+    overlay.style.transform = 'rotateY(0deg)';
+  });
+});
+  
