@@ -1,351 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abizer Lohawala | Software Engineer</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons/css/boxicons.min.css' rel='stylesheet'>
-
-        <title>Abizer Lohawala</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Abizer Lohawala</a>
-                </div>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Abizer Lohawala</span><br>Software Engineer</h1>
-
-                    <a href="#contact" class="button">Contact</a>
-                </div>
-
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/abizer-lohawala-275426222/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <!-- <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a> -->
-                    <a href="https://github.com/amazingAbizer110" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
-
-                <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/>
-                        </g>
-                    </svg>
-                </div>
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/about.jpg" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I am Abizer Lohawala</h2>
-                        <p class="about__text">Software Engineer with expertise in Python, Django, and microservices architecture. Proficient in designing
-                            scalable applications, API development, and full-stack solutions. Experienced in leading cross-functional teams, optimizing
-                            business workflows, and implementing AI-driven automation. Passionate about leveraging technology to enhance user
-                            experience and efficiency.</p>           
-                    </div>                                   
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">I'm proficient in Python, JavaScript, HTML, CSS, Django, FastAPI, and have hands-on experience with MySQL and MongoDB. I have a strong understanding of data structures, algorithms, and object-oriented programming, which helps me build scalable and efficient applications. I'm also skilled in using Celery with RabbitMQ for asynchronous task handling, and tools like Ngrok for secure tunneling during development. Additionally, I have experience in web scraping, data analysis, Git/GitHub for version control, and competitive programming.</p>
-                        
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <!-- <box-icon type='logo' name='php'></box-icon>                         -->
-                                <i class='bx bxl-django skills__icon'></i>                                
-                                <span class="skills__name ">Django</span>
-                            </div>
-                            <div class="skills__bar skills__php">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                        
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <!-- <box-icon type='solid' name='grid'></box-icon> -->
-                                <i class='bx bxs-grid skills__icon'></i>
-                                <span class="skills__name">Data Structures & Algorithms</span>
-                            </div>
-                            <div class="skills__bar skills__ds">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <!-- <box-icon type='solid' name='grid'></box-icon> -->
-                                <i class='bx bxs-grid skills__icon'></i>
-                                <span class="skills__name">Object Oriented Programming</span>
-                            </div>
-                            <div class="skills__bar skills__oop">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-python skills__icon'></i>
-                                <span class="skills__name">Python</span>
-                            </div>
-                            <div class="skills__bar skills__py">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-data skills__icon'></i>
-                                <span class="skills__name">MySQL</span>
-                            </div>
-                            <div class="skills__bar skills__ms">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">75%</span>
-                            </div>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-git skills__icon'></i>
-                                <span class="skills__name">git</span>
-                            </div>
-                            <div class="skills__bar skills__git">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">70%</span>
-                            </div>
-                        </div>
-
-
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <!-- <box-icon type='logo' name='php'></box-icon>                         -->
-                                <i class='bx bxl-python skills__icon'></i>                                
-                                <span class="skills__name ">Fast Api</span>
-                            </div>
-                            <div class="skills__bar skills__lv">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML</span>
-                            </div>
-                            <div class="skills__bar skills__html">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">CSS3</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-                        </div>
-
-                        
-
-
-                    </div>
-
-
-                    <div>              
-                        <img src="assets/img/dev.jpg" alt="" class="skills__img">
-                    </div>
-                </div>
-            </section>
-
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
-
-                <div class="work__container bd-grid">
-                    <div class="cardh">
-                        <a href="" class="work-img" >
-                            <img src="assets/img/rio_logo.jpeg" alt="">
-                            <div class="img-overlay" style="padding:12px">
-                                <h3 style="margin:0px;">Rio AI</h3>
-                                <h6 style="margin:0px;">June 2024 - Present</h6>
-                                <h6 style="margin:0px;">Technologies: Python, Django, HTML, CSS, Javascript, Mongo DB, MySQL</h6>
-                                
-                                <p style="color : black; font-size : 0.67em;">At Rio AI, a quick commerce platform for pharmacy products, I contributed to AI and chat automation by integrating Gen AI (ChatGPT) and image analysis for seamless customer interactions. I designed and developed intuitive dashboards for pharmacists, doctors, promoters, and system modules like offers, delivery, and orders. Additionally, I integrated EvitalRx for streamlined prescription management and enhanced chat functionalities for system administrators. My backend contributions included optimizing workflows across multiple microservices, covering order processing, offer handling, delivery operations, and promoter management.</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="cardh">
-                        <a href="" class="work-img pr" >
-                            <img src="assets/img/work2.jpg" alt="">
-                            <div class="img-overlay" style="padding:12px">
-                                <h3 style="margin:0px;">AAC</h3>
-                                <h6 style="margin:0px;">Duration: March 2023 - June 2024</h6>
-                                <h6 style="margin:0px;">Technologies: PHP, HTML, CSS, JavaScript, MySQL</h6>
-                                <p style="color : black; font-size : 0.67em;">Developed and maintained a website specializing in automobile services. Collaborated with a team of 4 to implement features for various user roles, including admin, restyler, and dealership. Enhanced email and SMS services for lead users, developed APIs for communication support, and resolved issues related to work order and invoice generation.
-                                </p>                            
-                            </div>
-                        </a>
-                    </div>
-                    <!-- <div class="cardh">
-                        <a href="" class="work-img pr" >
-                            <img src="assets/img/work3.jpg" alt="">
-                            <div class="img-overlay" style="padding:12px">
-                                <h3 style="margin:0px;">Budget Buddy</h3>
-                                <h6 style="margin:0px;">Duration: Jan 2024 - Present</h6>
-                                <h6 style="margin:0px;">Technologies: PHP, HTML, CSS, JavaScript, Laravel, MySQL</h6>
-                                <p style="color : black; font-size : 0.67em;">Developed a web app for managing budgets and expenses. Features include user sign-up/login, expense tracking, contact search, and full CRUD operations. Ensured secure and efficient data handling with Laravel and a responsive UI with HTML, CSS, and JavaScript.
-
-                                </p>
-                            </div>
-                        </a>
-                    </div> -->
-                    <div class="cardh">
-                        <a href="" class="work-img pr" >
-                            <img src="assets/img/work4.jpg" alt="">
-                            <div class="img-overlay" style="padding:12px">
-                                <h3 style="margin:0px;">Flipkart Web Scraper</h3>
-                                <h6 style="margin:0px;">July 2021 - August 2021</h6>
-                                <h6 style="margin:0px;">Technologies: Python, Requests, Beautiful Soup, Matplotlib, Pandas</h6>
-                                <p style="color : black; font-size : 0.67em;">Developed a web scraping tool to extract data from the Flipkart website using Python's Requests and Beautiful Soup modules. Visualized the scraped data using Matplotlib and Pandas.
-
-                                </p>                            
-                            </div>
-                        </a>
-                    </div>
-                    <div class="cardh">
-                        <a href="" class="work-img pr" >
-                            <img src="assets/img/work6.jpg" alt="">
-                            <div class="img-overlay" style="padding:12px">
-                                <h3 style="margin:0px;">Text Extraction from Images</h3>
-                                <h6 style="margin:0px;">August 2022 - November 2022</h6>
-                                <h6 style="margin:0px;">Technologies: Python, NumPy, Pandas, Matplotlib, Seaborn, Sklearn, OpenCV</h6>
-                                <p style="color : black; font-size : 0.67em;">Developed a web app allowing users to upload images and extract text from them. Utilized OpenCV for image processing and Sklearn for machine learning tasks. Data analysis and visualization were conducted using NumPy, Pandas, Matplotlib, and Seaborn.</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="cardh">
-                        <a href="" class="work-img pr" >
-                            <img src="assets/img/work5.jpg" alt="">
-                            <div class="img-overlay" style="padding:12px">
-                                <h3 style="margin:0px;">Housing Value Prediction</h3>
-                                <h6 style="margin:0px;">October 2021 - November 2021</h6>
-                                <h6 style="margin:0px;">Technologies: Python, NumPy, Pandas, Matplotlib, Seaborn, Sklearn</h6>
-                                <p style="color : black; font-size : 0.67em;">Developed a machine learning model to predict house values based on provided data. Utilized Python libraries such as NumPy and Pandas for data manipulation, Matplotlib and Seaborn for data visualization, and Sklearn for building and evaluating the model.</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section id="contact" style="padding: 2rem; background-color: #f8f9fa; border-radius: 12px; max-width: 600px; margin: auto; text-align: center;">
-                <h2 style="font-size: 2rem; margin-bottom: 1.5rem; color: #333;">Contact</h2>
-                <div>
-                  <p style="margin: 0.5rem 0; font-size: 1.1rem; color: #555;">
-                    <strong>Mobile:</strong>
-                    <p  style=" text-decoration: none;">+91 81092 63079</p>
-                  </p>
-                  <p style="margin: 0.5rem 0; font-size: 1.1rem; color: #555;">
-                    <strong>Email:</strong>
-                    <p style=" text-decoration: none;">lohawalaabizer5253@gmail.com</p>
-                  </p>
-                </div>
-              </section>
-                      </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">Abizer Lohawala</p>
-            <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="https://www.instagram.com/amazing_abizer/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+<body class="light-mode">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary px-3 shadow-sm border-bottom border-white fixed-top">
+    <a class="navbar-brand fw-bold text-white" href="#"><i class="fas fa-code"></i> Abizer Lohawala</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+            <a class="nav-link text-white fw-semibold" href="#about"><i class="fas fa-user"></i> About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white fw-semibold" href="#skills"><i class="fas fa-tools"></i> Skills</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white fw-semibold" href="#experience"><i class="fas fa-briefcase"></i> Experience</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white fw-semibold" href="#projects"><i class="fas fa-code-branch"></i> Projects</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white fw-semibold" href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+        </li>
+        <li class="nav-item d-flex align-items-center">
+            <div class="form-check form-switch ms-3">
+            <input class="form-check-input" type="checkbox" id="modeSwitch" onchange="toggleMode()">
+            <label class="form-check-label" for="modeSwitch">
+                <i id="modeIcon" class="fas fa-moon"></i>
+            </label>
             </div>
-            <p class="footer__copy">&#169; Portfolio. All rigths reserved</p>
-        </footer>
+        </li>
+        </ul>
+    </div>
+    </nav>
 
+  <header class="text-center p-5 bg-light text-dark">
+    <h1 class="display-4">Hi, I am Abizer Lohawala</h1>
+    <p class="lead">Software Engineer | Python | Django | FastAPI | Problem Solver</p>
+  </header>
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+  <section id="about" class="container py-5">
+    <div class="row align-items-center">
+      <div class="col-md-5 text-center">
+        <img src="assets/img/about.jpg" alt="Abizer Lohawala" class="profile-pic shadow img-fluid" width="250" height="250" />
+      </div>
+      <div class="col-md-7">
+        <h2><i class="fas fa-user-circle"></i> About Me</h2>
+        <p>
+          I'm a passionate Software Engineer with 2.5 years of experience in Python development using Django, FastAPI,
+          and microservices. I’ve built scalable systems, integrated AI tools, and led full-stack initiatives in dynamic startup environments.
+        </p>
+        <p>
+          I’m driven by continuous learning, writing clean code, and creating impact through user-centric solutions.
+        </p>
+      </div>
+    </div>
+  </section>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+  <section id="skills" class="bg-primary text-white py-5">
+    <div class="container">
+      <h2 class="text-center mb-4"><i class="fas fa-tools"></i> Skills</h2>
+      <div class="row text-center">
+        <div class="col-md-3 mb-3"><i class="fab fa-python"></i> Python</div>
+        <div class="col-md-3 mb-3"><i class="fas fa-code"></i> Django, FastAPI</div>
+        <div class="col-md-3 mb-3"><i class="fas fa-database"></i> MySQL, MongoDB</div>
+        <div class="col-md-3 mb-3"><i class="fab fa-js"></i> JavaScript, HTML, CSS</div>
+        <div class="col-md-3 mb-3"><i class="fas fa-project-diagram"></i> Data Structures & Algorithms</div>
+        <div class="col-md-3 mb-3"><i class="fas fa-cubes"></i> OOP</div>
+        <div class="col-md-3 mb-3"><i class="fas fa-sync-alt"></i> Celery, RabbitMQ</div>
+        <div class="col-md-3 mb-3"><i class="fab fa-github"></i> Git, GitHub</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="container py-5">
+  <h2 class="text-center mb-4">Experience</h2>
+  <div class="mb-4">
+    <h5>Software Engineer, Rapid Surge Innovations Pvt Ltd <span>(06/2024 - Present)</span></h5>
+    <ul>
+      <li>Integrated OpenAI's ChatGPT APIs and image analysis tools to automate customer chat workflows, significantly reducing human involvement and boosting response efficiency.</li>
+      <li>Collaborated cross-functionally with the sales and product teams to create dynamic dashboards for pharmacists, doctors, and delivery executives, enhancing operational clarity.</li>
+      <li>Built scalable REST APIs and backend workflows using Django and FastAPI, improving data consistency and system reliability.</li>
+      <li>Integrated eVitalRx for real-time pharmacy inventory management, improving sync accuracy across pharmacy branches.</li>
+    </ul>
+  </div>
+  <div>
+    <h5>Software Engineer, Synapse XTL <span>(03/2023 - 06/2024)</span></h5>
+    <ul>
+      <li>Revamped email and SMS service layers, improving message delivery success rate by 30% and integrating real-time notifications.</li>
+      <li>Developed and deployed robust APIs for work order processing, invoicing, and user role differentiation (admins/dealers), enhancing system modularity.</li>
+      <li>Collaborated with frontend teams to implement seamless UX features, contributing to a 98% stakeholder satisfaction score.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="projects" class="container py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Projects</h2>
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="card">
+          <img src="assets/img/text-extraction.jpg" class="card-img-top" alt="Text Extraction" />
+          <div class="card-body">
+            <h5 class="card-title">Text Extraction from Images</h5>
+            <p class="card-text">
+              Built a Python-based web app that allows users to upload images and extract text using OpenCV. The application
+              parses the text and generates structured output. Incorporated Matplotlib and Pandas for data visualization and analytics.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="card">
+          <img src="assets/img/scraper.jpg" class="card-img-top" alt="Flipkart Scraper" />
+          <div class="card-body">
+            <h5 class="card-title">Flipkart Web Scraper</h5>
+            <p class="card-text">
+              Developed a scraping tool using Python’s Requests and BeautifulSoup to extract product data from Flipkart, including
+              pricing, ratings, and titles. Visualized insights with Matplotlib, providing useful trends and summaries for business intelligence.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section id="contact" class="container py-5">
+    <h2 class="text-center mb-4">Contact</h2>
+    <p class="text-center">Email: <a href="mailto:lohawalaabizer5253@gmail.com">lohawalaabizer5253@gmail.com</a></p>
+    <p class="text-center">Phone: +91 8109263079</p>
+    <p class="text-center">
+      <a href="https://github.com/amazingAbizer110" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/abizer-lohawala-275426222/" target="_blank">LinkedIn</a>
+    </p>
+  </section>
+
+  <footer class="bg-dark text-white text-center p-3">
+    &copy; 2025 Abizer Lohawala. All rights reserved.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>
